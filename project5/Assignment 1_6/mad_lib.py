@@ -1,0 +1,12 @@
+print("-"*40)
+print("Let's play a game of mad libs")
+print("-"*40)
+noun=input("Enter a name: ")
+adjective=input("Enter a place name: ")
+verb=input("Enter a something you want to do: ")
+number=input("Enter a number : ")
+madlib=f"My name is {noun} and i am {number} years old \n I am going to a place named {adjective} \n To do {verb} "
+print("-" * 40)
+print("Here's your Mad Libs story:")
+print("-" * 40)
+print(madlib)
